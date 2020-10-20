@@ -24,8 +24,8 @@ app.use(express.static(path.resolve(__dirname, '../public')));
 // Conexion a base de datos
 dbConecction();
 
-// Confiiguracion Global De Las Rutas
-// app.use(require('./routes/index'));
+// Configuracion Global De Las Rutas
+app.use(require('./routes/index'));
 
 
 // Respuesta en consola de la inicializacion del servidor
