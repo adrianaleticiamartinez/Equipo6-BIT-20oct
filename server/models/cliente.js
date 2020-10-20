@@ -9,7 +9,6 @@ let clienteSchema = new Schema({
 
 // Se enlistan todos sus atributos con sus respectivos tipados
 
-  //ESTO ES LO QUE SE TIENE QUE MODIFICAR
     idCliente: {
         type: String
     },
@@ -19,7 +18,7 @@ let clienteSchema = new Schema({
     apellidoPaterno: {
         type: String
     },
-    apellidoMatero: {
+    apellidoMaterno: {
         type: String
     },
     fechaNacimiento: {
