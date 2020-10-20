@@ -10,19 +10,25 @@ let usuarioSchema = new Schema({
     // Se enlistan todos sus atributos con sus respectivos tipados 
 
     //ESTO ES LO QUE SE TIENE QUE MODIFICAR
-    nombre: {
+    usuario: {
         type: String
     },
-    apellido: {
+    auth: {
         type: String
     },
-    email: {
+    nombreCompleto: {
         type: String
     },
-    password: {
+    area: {
         type: String
     },
-    rol: {
+    ubicacion: {
+        type: String
+    },
+    segmento: {
+        type: String
+    },
+    perfil: {
         type: String
     }
 });

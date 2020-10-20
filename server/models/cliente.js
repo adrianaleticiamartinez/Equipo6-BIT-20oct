@@ -10,41 +10,43 @@ let clienteSchema = new Schema({
 // Se enlistan todos sus atributos con sus respectivos tipados
 
   //ESTO ES LO QUE SE TIENE QUE MODIFICAR
+    idCliente: {
+        type: String
+    },
     nombre: {
         type: String
     },
-    apellido: {
+    apellidoPaterno: {
         type: String
     },
-    email: {
+    apellidoMatero: {
+        type: String
+    },
+    fechaNacimiento: {
+        type: String
+    },
+    sexo: {
+        type: String
+    },
+    segmento: {
+        type: String
+    },
+    nacionalidad: {
+        type: String
+    },
+    rfc: {
+        type: String
+    },
+    tipoID: {
+        type: String
+    },
+    numeroID: {
         type: String
     },
     cuenta: {
         type: String
     },
-    tarjeta: {
-        type: String
-    },
-    deuda: {
-        type: String
-    },
-    saldo: {
-        type: String
-    },
-    buro: {
-        type: String
-    },
-    solicitudPrestamo: {
-        type: String
-    },
-    prestamo: {
-        type: String,
-        default: '  '
-    },
-    password: {
-        type: String
-    },
-    telefono: {
+    email: {
         type: String
     }
 });
